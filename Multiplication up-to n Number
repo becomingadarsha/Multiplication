@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int i,a,num,j;
+	printf("Enter number upto which product is to be displayed:");
+	scanf("%d",&num);
+	for(i=1;i<=num;i++)
+	{
+		for(j=1;j<=10;j++)
+		{
+		a=i*j;
+		printf("%d*%d=%d\n",i,j,a);
+		
+	}
+printf("\n=============================================================================================\n");
+	}
+	return 0; 
+}
