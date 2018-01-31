@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int i,a,num,j;
+	printf("Enter number whose multiplication table is to be displayed:");
+	scanf("%d",&num);
+	printf("The multiplication of %d is:\n",num);
+	for(i=1;i<=10;i++)
+	{
+		a=num*i;
+		printf("%d*%d=%d\n",num,i,a);
+	}
+	return 0;
+}
